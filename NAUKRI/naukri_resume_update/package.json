@@ -1,0 +1,23 @@
+{
+  "name": "naukri_resume_update",
+  "version": "1.0.0",
+  "description": "This project automates the process of updating your resume on Naukri.com to keep your profile active and at the top of recruiter searches.",
+  "main": "index.js",
+  "scripts": {
+    "login-setup": "node src/login-setup.js",
+    "update-once": "node src/update-resume.js",
+    "start-scheduler": "node src/scheduler.js",
+    "record-workflow": "node src/record-workflow.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.3",
+    "node-cron": "^4.2.1",
+    "puppeteer": "^24.35.0"
+  }
+}

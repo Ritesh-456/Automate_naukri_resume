@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Credentials)
+.env
+
+# Session Data (Cookies & LocalStorage)
+data/
+
+# Logs and Debugging
+logs/
+*.log
+
+# Personal Documents
+resume/
+*.pdf
+
+# OS Generated
+Thumbs.db
+.DS_Store

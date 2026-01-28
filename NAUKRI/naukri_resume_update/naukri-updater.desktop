@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Naukri Resume Auto-Updater
+Comment=Auto-updates resume on Naukri.com every hour
+Exec=/media/riteshbrahmachari/Storage/DATA/NAUKRI/naukri_resume_update/start-background.sh
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;
